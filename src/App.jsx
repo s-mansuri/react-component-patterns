@@ -1,6 +1,6 @@
 import { faker } from "@faker-js/faker";
 import "./styles.css";
-import withToggles from "./HOC";
+import withToggles from "./hoc-pattern/HOC";
 import ProductList from "./render-props-pattern/ProductList";
 import List from "./render-props-pattern/List";
 import CompanyItem from "./render-props-pattern/CompanyItem";
